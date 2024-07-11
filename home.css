@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px
+}
+/* Header Area Start */
+.header-area-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-area-menu ul{
+    display: flex;
+}
+.header-area-menu ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.header-area-menu ul li a{
+    text-decoration: none;
+}
+/* Header Area End */
+
+/* About the principal start */
+.about-the-principal{
+    display: flex;
+    padding: 70px 0 50px 0;
+ 
+}
+
+.about-the-principal-text-area{
+    margin-left: 30px; 
+    font-size: 20px; 
+   
+}
+.about-the-principal-text-area button{
+    width: 338px;
+    background-color: chartreuse;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+
+/* About the principal end */
+    
+
+/* Bannar area start */
+.background-img{
+    background-image:url(image/banner/banner-img.png);
+    height: 616PX;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+.background-text-area{
+    text-align: center;
+    width: 1440px;
+    height: 616px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    color: ivory;
+}
+
+    width: 338px;
+    height: 58px;
+    font-size: 80px;
+    text-align: center;
+} 
+/* Bannar area end */
+
+/* Form start */
+
+#form{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 0 auto;
+    background-color: lightskyblue;
+}
+.form-input input{
+    height: 70px;
+    width: 90%;
+    background-color: lightgrey;
+    border: radius 15%;
+}
+.form-input button{
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    margin-left: 40px;
+    background-color: darkgreen;
+}
+.form-text{
+    font-size: 20px;
+    margin-top:40px;
+}
+/* Form end */
+
+/* Service start  */
+.services-image{
+    display: flex;
+    justify-content: space-between;
+}
+.service-text-area{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.services-text{
+    text-align: center;
+}
+.more{
+    width: 342px;
+    height: 73px;
+    margin-left: 50px;
+
+
+}
+/* Service end */
+
+/* Our Philosophy start */
+
+#our-philosophy{
+    display: flex;
+    
+}
+.our-philosophy-img{
+    width: 736px;
+    height: 734px;
+    top: 3484px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.our-philosophy-text-area{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+#and-you{
+    display: flex;
+}
+.and-you-text-area{
+    margin-left: 40px;
+    font-size: 20px
+}
+.button1{border: none;
+    color: white;
+    padding: 13px 27px;
+    text-align: center;
+    font-size: 19px;
+    margin: 7px 2px;
+    cursor: pointer;
+}
+.button2
+{ 
+    color: #000; 
+    background-color: white;
+    border-style: groove;
+}
+/* Our philosophy end */
+
+.finish{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+}
